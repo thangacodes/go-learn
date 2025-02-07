@@ -9,7 +9,7 @@ How do I compile and run a Go program? Please follow the instructions:
    go build -o helloworld main.go
    ls -l
    chmod a+x helloworld  #  Granting execute permission to the file named 'hw' for all users
-   ./hw
+   ./helloworld
    //You will see the output below after you run the compiled Go program.
    Hello World!
    Always keep high hopes for yourself when you learn something new :)

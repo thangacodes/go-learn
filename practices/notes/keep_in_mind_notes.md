@@ -34,7 +34,7 @@ var (
     married = false 
 )
 
-Short Variable Declaration:
+* Short Variable Declaration:
 s := "India"   //:= denotes short variable declaration
 
 # Note: You can override string variable values, but you cannot assign an integer to a string variable.

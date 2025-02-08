@@ -78,7 +78,51 @@ Error: cannot use 590 (type untyped int) as type string in assignment.
 
 ** Note: You can override string variable values, but you cannot assign an integer to a string variable.
 
+# Local vs Global Variables:
 
+Local Variables:
+* Declared inside a function or a block
+* not accessible outside the function or the block
+* can also be declared inside looping and conditional statements
+
+Example for local variables:
+# main.go 
+package main
+import (
+	"fmt"
+)
+
+func main() {
+	city := "London"
+	fmt.Println(city)
+}
+
+The output will be:
+London 
+
+Global Variables:
+* Declared outside of a function or  a block
+* Available throughout the lifetime of a program
+* Declared at the top of the program outside all functions or blocks
+* Can be accessed from any part of the program
+
+Example for Global Variables:
+# main.go
+package main
+
+import (
+	"fmt"
+)
+
+var name = "Vedhu"
+
+func main() {
+	var age = 35
+	fmt.Println(name)
+	fmt.Println(age)
+}
+The output will be:
+Vedhu 
 
 
   

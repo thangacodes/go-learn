@@ -19,11 +19,13 @@ verb Descriptions
 %f   floating numbers
 %.2f floating numbers upto 2 decimal places
 
-### Variable declaration method:
-method-I and method-II fall under short hand:
-//method-I:
+## Variable Declaration Methods:
+   Method I and Method II are shorthand ways to declare variables:
+
+* Method I:
 var s, t = "foo", "bar"
-// method-II:
+
+* Method II:
 var (
     name = "John"
     age  = 35
@@ -31,10 +33,11 @@ var (
     weight = 67.8
     married = false 
 )
+
 Short Variable Declaration:
 s := "India"   //:= denotes short variable declaration
 
-//Note: You can over ride the string variable values, but you cannot keep integer under a string variable. See the example,
+# Note: You can override string variable values, but you cannot assign an integer to a string variable.
 
 # variables_dec.go
 package main
@@ -44,9 +47,9 @@ func main() {
    name  = "Siju"
 fmt.Println(name)
 
-# When you run the program
+# When you run the program with:
   go run variables_dec.go
-# You see an output as,
+# The output will be:
   Siju
 Another method is,
 # variables_dec.go
@@ -57,9 +60,9 @@ func main() {
    name  = 590
 fmt.Println(name)
 
-# When you run the program
+# When you run the program with:
   go run variables_dec.go
-# You see an output as errored and the error stating that,
+# You will encounter an error message:
 Error: cannot use 590 (type untyped int) as type string in assignment.
 
 

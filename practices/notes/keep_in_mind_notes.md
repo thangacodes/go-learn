@@ -23,10 +23,10 @@ verb Descriptions
    Method I and Method II are shorthand ways to declare variables:
 
 * Method I:
-var s, t = "foo", "bar"
+  var s, t = "foo", "bar"
 
 * Method II:
-var (
+  var (
     name = "John"
     age  = 35
     height = 5.7
@@ -35,35 +35,40 @@ var (
 )
 
 * Short Variable Declaration:
-s := "India"   //:= denotes short variable declaration
-
-# Note: You can override string variable values, but you cannot assign an integer to a string variable.
+  s := "India"   //:= denotes short variable declaration
 
 # variables_dec.go
-package main
-import ("fmt")
-func main() {
-   name := "Arjun"
-   name  = "Siju"
-fmt.Println(name)
+   package main
+   import ("fmt")
+   func main() {
+      name := "Arjun"
+      name  = "Siju"
+      fmt.Println(name)
+}
 
 # When you run the program with:
   go run variables_dec.go
 # The output will be:
   Siju
+*  Note: You can override string variable values.
+
 Another method is,
 # variables_dec.go
-package main
-import ("fmt")
-func main() {
-   name := "Arjun"
-   name  = 590
-fmt.Println(name)
+   package main
+   import ("fmt")
+   func main() {
+     name := "Arjun"
+     name  = 590
+     fmt.Println(name)
+}
 
 # When you run the program with:
   go run variables_dec.go
+
 # You will encounter an error message:
 Error: cannot use 590 (type untyped int) as type string in assignment.
+
+** Note: You can override string variable values, but you cannot assign an integer to a string variable.
 
 
 

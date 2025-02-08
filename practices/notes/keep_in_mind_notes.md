@@ -33,3 +33,37 @@ var (
 )
 Short Variable Declaration:
 s := "India"   //:= denotes short variable declaration
+
+//Note: You can over ride the string variable values, but you cannot keep integer under a string variable. See the example,
+
+# variables_dec.go
+package main
+import ("fmt")
+func main() {
+   name := "Arjun"
+   name  = "Siju"
+fmt.Println(name)
+
+# When you run the program
+  go run variables_dec.go
+# You see an output as,
+  Siju
+Another method is,
+# variables_dec.go
+package main
+import ("fmt")
+func main() {
+   name := "Arjun"
+   name  = 590
+fmt.Println(name)
+
+# When you run the program
+  go run variables_dec.go
+# You see an output as errored and the error stating that,
+Error: cannot use 590 (type untyped int) as type string in assignment.
+
+
+
+
+  
+

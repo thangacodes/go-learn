@@ -18,3 +18,18 @@ verb Descriptions
 %t   true or false
 %f   floating numbers
 %.2f floating numbers upto 2 decimal places
+
+### Variable declaration method:
+method-I and method-II fall under short hand:
+//method-I:
+var s, t = "foo", "bar"
+// method-II:
+var (
+    name = "John"
+    age  = 35
+    height = 5.7
+    weight = 67.8
+    married = false 
+)
+Short Variable Declaration:
+s := "India"   //:= denotes short variable declaration

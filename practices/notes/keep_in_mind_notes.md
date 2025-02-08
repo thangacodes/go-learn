@@ -38,12 +38,16 @@ verb Descriptions
   s := "India"   //:= denotes short variable declaration
 
 # variables_dec.go
-   package main
-   import ("fmt")
-   func main() {
-      name := "Arjun"
-      name  = "Siju"
-      fmt.Println(name)
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	name := "Arjun"
+	name = "Siju"
+	fmt.Println(name)
 }
 
 # When you run the program with:
@@ -54,12 +58,16 @@ verb Descriptions
 
 Another method is,
 # variables_dec.go
-   package main
-   import ("fmt")
-   func main() {
-     name := "Arjun"
-     name  = 590
-     fmt.Println(name)
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	name := "Arjun"
+	name = 590
+	fmt.Println(name)
 }
 
 # When you run the program with:

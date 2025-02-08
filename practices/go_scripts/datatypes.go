@@ -15,6 +15,9 @@ func main() {
 	c := true
 	fmt.Println("Given input of 'c' value is:", c)
 	fmt.Println("Type of 'c' is:", reflect.TypeOf(c))
+	d := 88.90
+	fmt.Println("Given input of 'd' value is:", d)
+	fmt.Println("Type of 'c' is:", reflect.TypeOf(d))
 }
 
 // reflect.TypeOf(variable) --> returns the type of the variable, which is then printed out.

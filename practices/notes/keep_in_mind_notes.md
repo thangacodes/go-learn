@@ -1,13 +1,31 @@
 ```bash
 Datatypes:
-int, string, boolean
+=============
+The common datatypes are: int, float, boolean, string
+
+integer:-
+=========
 int has two types - uint, int
-unit: (unsigned integer)
-it contains only positive numbers, including '0' also.
+unint: (unsigned integer)
+it contains only positive numbers, including '0' also. Example: 0, 10, 20003
 int: (signed integer)
-it contains both positive and negative numbers. 
+it contains both positive and negative numbers. Example: -5, 0, 345212
+
+string:-
+========
+* It contains a sequence of characters
+  Example: "india" "12345"
+boolean:-
+=========
+* It contains only one of two values: either True or False
+  Example: True (OR) False
+float:-
+=======
+* It contains decimal numbers (numbers with a fractional part)
+  Example: 3.14, 5.5634, -0.001
 
 Printf -format specifiers:
+==========================
 verb Descriptions
 %v   formats the value in a default format.
 %d   formats decimal integers
@@ -80,7 +98,8 @@ Error: cannot use 590 (type untyped int) as type string in assignment.
 
 # Local vs Global Variables:
 
-Local Variables:
+Local Variables:-
+=================
 * Declared inside a function or a block
 * not accessible outside the function or the block
 * can also be declared inside looping and conditional statements
@@ -100,7 +119,8 @@ func main() {
 The output will be:
 London 
 
-Global Variables:
+Global Variables:-
+==================
 * Declared outside of a function or  a block
 * Available throughout the lifetime of a program
 * Declared at the top of the program outside all functions or blocks
@@ -170,3 +190,8 @@ Sleep for '2' seconds..
 Sleep for '2' seconds..
 false
 Sleep for '1' seconds..
+
+## Scanf and returns:-
+======================
+count --> the number of arguments that the function writes to
+err   --> any error thrown during the execution of the function

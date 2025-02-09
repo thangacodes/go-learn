@@ -49,6 +49,10 @@ Itoa() - stands for integer to ASCII
   * converts integer to string
   * returns one value - string formed with the given integer.
 
+Atoi() - stand for ASCII to Integer
+  * converst string to integer
+  * returns two values - the corresponding integer, error (if any)
+
 Example for converting integer to string:
 
 # main.go
@@ -69,4 +73,31 @@ func main() {
    go run main.go
 # The output will be
    "42"
+
+Example for Converting string to integer:
+
+# main.go 
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	fmt.Printf("Converting String to Integer using 'Atoi()' function..\n")
+	var s string = "2000"
+	i, err := strconv.Atoi(s)
+	fmt.Printf("%v %T\n", i, i)
+	fmt.Printf("%v %T\n", err, err)
+}
+
+# When you run the program with
+   go run main.go
+# The output will be
+   Converting String to Integer using 'Atoi()' function..
+   2000 int
+   <nil> <nil>
+
+
 

@@ -64,3 +64,9 @@ func main() {
 	var s string = strconv.Itoa(i)
 	fmt.Printf("%q", s)
 }
+
+# When you run the program with
+   go run main.go
+# The output will be
+   "42"
+

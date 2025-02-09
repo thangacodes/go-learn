@@ -42,3 +42,25 @@ func main() {
    go run main.go
 # The output will be
    40.00
+
+2) strconv package (string convertion package):
+
+Itoa() - stands for integer to ASCII
+  * converts integer to string
+  * returns one value - string formed with the given integer.
+
+Example for converting integer to string:
+
+# main.go
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var i int = 42
+	var s string = strconv.Itoa(i)
+	fmt.Printf("%q", s)
+}

@@ -17,7 +17,7 @@ Note: We can define Operators in symbols.
 
 Example, when we say 
 a + b
-// a, b -> are operands
+ // a, b -> are operands
 // + -> Operators
 
 In Go lang, we have '5' types of Operators:
@@ -116,3 +116,13 @@ It used to determine the logic between variables and values.
    * Common logical comparisons:
         * Are two variables both true?
         * Does either of two expressions evaluate to true?
+
+## Following are the common logical operators:-
+==============================================
+Logical AND (&&)   // Returns true if both the statements are true.
+                      Returns false when either of the statements is false.
+Logical OR (||)   //  Returns true if one of the statement is true.
+                      Returns false when both statements are false.
+Logical NOT (!)  //   Unary Operator. Reverses the result, return false if the
+                      expression evaluates to true and vice versa. 
+

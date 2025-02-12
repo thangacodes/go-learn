@@ -93,13 +93,15 @@ func main(){
 go run main.go 
 true
 
-## Arithmetic Operators:
+## Arithmetic Operators:-
+=========================
 It Used to perform common arithmetic operations,such as addition, subtraction, multiplication, etc..
-* Common comparisons:-
-   * Does the sum of two numbers equal a particular value?
-   * Is the difference between two numbers lesser than a particular value?
+ * Common comparisons:-
+     * Does the sum of two numbers equal a particular value?
+     * Is the difference between two numbers lesser than a particular value?
 
-## Following are the common Arithmetic operators:
+## Following are the common arithmetic operators:-
+==================================================
 addition (+)         // adds the left and right operand
 subtraction (-)     // subtract the right operand from the left operand
 multiplication (*) // multiplies both operands.
@@ -107,3 +109,10 @@ division (/)      // returns the quotient when left operand is divided by right 
 modulus (%)      // returns the remainder when left operand is divided by right operand.
 increment (++)  // Unary operator.It increments the value of the operand by one.
 decrement (--) // Unary operator. It decrements the value of the operand by one.
+
+### Logical Operators:-
+========================
+It used to determine the logic between variables and values.
+   * Common logical comparisons:
+        * Are two variables both true?
+        * Does either of two expressions evaluate to true?

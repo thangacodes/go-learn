@@ -57,3 +57,27 @@ less than <
 less than or equal to <=
 greater than >
 greater than or equal to >=
+
+Example program:
+# main.go
+package main
+import ("fmt")
+func main(){
+    var city string  = "Chennai"
+    var city2 string = "Madras"
+    fmt.Printf(city == city2)
+}
+// When we run the program with,
+go run main.go
+false
+# Note: return True when the values are equal.
+
+package main
+import "fmt"
+
+func main() {
+	var a int = 10
+	var b int = 12
+	fmt.Printf("%v", a >= b)
+}
+#Note: The Output will be false because a (10) is not greater than or equal to b (12)

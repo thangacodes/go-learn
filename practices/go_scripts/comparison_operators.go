@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("..........")
-	fmt.Printf("Types of Comparison Operators: \n equal(==)\n not equal(!=)\n less than(<)\n less than or equal to(<=)\n greater than(>)\n greater than(>=)\n")
+	fmt.Printf("Types of Comparison Operators: \nequal(==)\nnot equal(!=)\nless than(<)\nless than or equal to(<=)\ngreater than(>)\ngreater than(>=)\n")
 	fmt.Println("..........")
 	fmt.Println("Example program for Comparison Operators: \n")
 	var x int = 100

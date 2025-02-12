@@ -7,9 +7,9 @@ import (
 
 func main() {
 	fmt.Println("..........")
-	fmt.Printf("Example program for: equal(==),not equal(!=),less than(<),less than or equal to(<=), greater than(>), greater than(>=)\n")
-	fmt.Println("")
+	fmt.Printf("Types of Comparison Operators: \n equal(==)\n not equal(!=)\n less than(<)\n less than or equal to(<=)\n greater than(>)\n greater than(>=)\n")
 	fmt.Println("..........")
+	fmt.Println("Example program for Comparison Operators: \n")
 	var x int = 100
 	var y int = 100
 	fmt.Println("var1('100') is equal to var2('100'):", x == y)
@@ -28,4 +28,5 @@ func main() {
 	time.Sleep(1 * time.Second)
 	var g, i int = 200, 200
 	fmt.Println("var1('200') is greater than or equal to var2('200'):", g >= i)
+	fmt.Println("")
 }

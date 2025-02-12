@@ -80,4 +80,16 @@ func main() {
 	var b int = 12
 	fmt.Printf("%v", a >= b)
 }
-#Note: The Output will be false because a (10) is not greater than or equal to b (12)
+# Note: The Output will be false because a (10) is not greater than or equal to b (12)
+
+package main
+import ("fmt")
+func main(){
+	var a string = "100"
+	var b string = "90"
+	fmt.Printf("%v", a <= b)
+}
+
+go run main.go 
+true
+

@@ -1,6 +1,6 @@
 How to build and run the container for a Go webapp?
 
-``bash
+```bash
 
 1. Clone the repository:
    git clone https://github.com/thangacodes/go-learn.git

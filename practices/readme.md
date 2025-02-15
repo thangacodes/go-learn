@@ -1,11 +1,14 @@
-How do I compile and run a Go program? Please follow the instructions:
+How do I compile and run a Go program? 
+
+Please follow the instructions:
 
 ```bash
+
 1. Clone the repository
    git clone https://github.com/thangacodes/go-learn.git
 
 2. Navigate to the directory where the Go program exists
-   cd practices
+   cd practices/go_scripts/
    ls -l
    go build -o helloworld main.go
    ls -l

@@ -12,11 +12,11 @@ func root(w http.ResponseWriter, r *http.Request) {
 }
 func about(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "page/about.html")
-	fmt.Println("The user is hitting the root page for '/about' ")
+	fmt.Println("The user is hitting the about page for '/about' ")
 }
 func contact(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "page/contact.html")
-	fmt.Println("The user is hitting the root page for '/contact' ")
+	fmt.Println("The user is hitting the contact page for '/contact' ")
 }
 
 func main() {
